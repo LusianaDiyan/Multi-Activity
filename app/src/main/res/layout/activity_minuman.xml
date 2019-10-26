@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR MENU MINUMAN"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingBottom="25dp"/>
+
+    <CheckBox
+        android:id="@+id/nangka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Nangka"/>
+
+    <CheckBox
+        android:id="@+id/anggur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Anggur"/>
+
+    <CheckBox
+        android:id="@+id/nanas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Nanas"/>
+
+    <CheckBox
+        android:id="@+id/apel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Apel"/>
+
+    <CheckBox
+        android:id="@+id/jeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Jeruk"/>
+
+    <CheckBox
+        android:id="@+id/mangga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Mangga"/>
+
+    <CheckBox
+        android:id="@+id/semangka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Semangka"/>
+
+    <CheckBox
+        android:id="@+id/melon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Melon"/>
+
+    <CheckBox
+        android:id="@+id/straw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Strawberry"/>
+
+    <Button
+        android:id="@+id/btnPesanMinum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+</LinearLayout>

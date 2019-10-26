@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR MENU MAKANAN"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingBottom="25dp"/>
+
+    <CheckBox
+        android:id="@+id/gulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gulai Kambing"/>
+
+    <CheckBox
+        android:id="@+id/sateKam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sate Kambing"/>
+
+    <CheckBox
+        android:id="@+id/sateAyam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sate Ayam"/>
+
+    <CheckBox
+        android:id="@+id/pecel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi Pecel"/>
+
+    <CheckBox
+        android:id="@+id/lemak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi Lemak"/>
+
+    <CheckBox
+        android:id="@+id/opor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opor Ayam"/>
+
+    <CheckBox
+        android:id="@+id/ayGoreng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayam Goreng"/>
+
+    <CheckBox
+        android:id="@+id/ayBakar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayam Bakar"/>
+
+    <CheckBox
+        android:id="@+id/ayPanggang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayam Panggang"/>
+
+    <Button
+        android:id="@+id/pesanMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+</LinearLayout>

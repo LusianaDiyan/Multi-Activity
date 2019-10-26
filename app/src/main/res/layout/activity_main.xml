@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f00ff0"
+    tools:context="applusiana.multyactivity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Menu Pesanan Anda : "
+        android:layout_above="@+id/btnMakan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/btnMakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makanan"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btnMinum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minuman"
+        android:layout_below="@+id/btnMakan"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
